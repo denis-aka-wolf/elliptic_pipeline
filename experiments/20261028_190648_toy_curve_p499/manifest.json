@@ -1,0 +1,32 @@
+{
+  "config_path": "F:\\Python\\elliptic_pipeline\\config499.json",
+  "config_sha256": "138d6381dd5672740a6f065204468fc6f2fc5d7e7fcd1f5518e589aba4c24ae7",
+  "duration_seconds": 0.187375,
+  "finished_utc": "2026-10-28T16:06:48.358904+00:00",
+  "overall_status": "error",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "python_version": "3.15.2 (tags/v3.15.2:5e58eaa, Oct 25 2026, 17:27:03) [MSC v.1951 64 bit (AMD64)]",
+  "stages": {
+    "anf_export": {
+      "status": "skipped"
+    },
+    "arithmetic_self_test": {
+      "duration_seconds": 0.001068,
+      "status": "ok"
+    },
+    "curve_validation": {
+      "duration_seconds": 0.017737,
+      "status": "ok"
+    },
+    "polynomial_resultant": {
+      "status": "skipped"
+    },
+    "toy_sat_demo": {
+      "duration_seconds": 0.006441,
+      "error": "No module named 'sat.toy_demo'",
+      "status": "error",
+      "traceback": "Traceback (most recent call last):\n  File \"F:\\Python\\elliptic_pipeline\\pipeline.py\", line 348, in run_stage\n    result = function(config, run_dir)\n  File \"F:\\Python\\elliptic_pipeline\\pipeline.py\", line 324, in stage_toy_sat_demo\n    from sat.toy_demo import run_toy_sat_demo\nModuleNotFoundError: No module named 'sat.toy_demo'\n"
+    }
+  },
+  "started_utc": "2026-10-28T16:06:48.171548+00:00"
+}

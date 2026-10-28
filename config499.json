@@ -1,0 +1,45 @@
+
+{
+  "experiment": {
+    "name": "toy_curve_p499",
+    "description": "Reproducible elliptic-curve experiment over F_499",
+    "output_root": "experiments",
+    "archive": true,
+    "fail_fast": true
+  },
+  "curve": {
+    "mode": "toy",
+    "p": 499,
+    "a": 0,
+    "b": 7,
+    "generator": {
+      "x": 3,
+      "y": 212
+    },
+    "subgroup_order": null
+  },
+  "stages": {
+    "curve_validation": true,
+    "arithmetic_self_test": true,
+    "glv_validation": false,
+    "polynomial_resultant": false,
+    "anf_export": false,
+    "toy_sat_demo": true
+  },
+  "polynomial": {
+    "backend": "sympy",
+    "resultant_variable": "z",
+    "inputs_file": "polynomial_example.json"
+  },
+  "anf": {
+    "truth_table_file": null
+  },
+  "sat_demo": {
+    "mode": "toy_linear_congruence",
+    "bit_width": 9,
+    "constant_b": 5,
+    "constant_c": 10,
+    "modulus": 499,
+    "k_width": 4
+  }
+}

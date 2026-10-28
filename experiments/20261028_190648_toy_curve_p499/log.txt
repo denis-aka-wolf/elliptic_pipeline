@@ -1,0 +1,18 @@
+2026-10-28 19:06:48,261 INFO START stage=curve_validation
+2026-10-28 19:06:48,279 INFO OK stage=curve_validation
+2026-10-28 19:06:48,279 INFO START stage=arithmetic_self_test
+2026-10-28 19:06:48,280 INFO OK stage=arithmetic_self_test
+2026-10-28 19:06:48,280 INFO SKIP stage=polynomial_resultant
+2026-10-28 19:06:48,281 INFO SKIP stage=anf_export
+2026-10-28 19:06:48,281 INFO START stage=toy_sat_demo
+2026-10-28 19:06:48,355 ERROR FAILED stage=toy_sat_demo: No module named 'sat.toy_demo'
+Traceback (most recent call last):
+  File "F:\Python\elliptic_pipeline\pipeline.py", line 348, in run_stage
+    result = function(config, run_dir)
+  File "F:\Python\elliptic_pipeline\pipeline.py", line 324, in stage_toy_sat_demo
+    from sat.toy_demo import run_toy_sat_demo
+ModuleNotFoundError: No module named 'sat.toy_demo'
+2026-10-28 19:06:48,358 ERROR Остановка: этап toy_sat_demo завершился ошибкой.
+2026-10-28 19:06:48,418 INFO ARCHIVE F:\Python\elliptic_pipeline\experiments\20261028_190648_toy_curve_p499\archive.zip
+2026-10-28 19:06:48,419 INFO FINISHED status=error
+2026-10-28 19:06:48,419 INFO RUN_DIRECTORY F:\Python\elliptic_pipeline\experiments\20261028_190648_toy_curve_p499

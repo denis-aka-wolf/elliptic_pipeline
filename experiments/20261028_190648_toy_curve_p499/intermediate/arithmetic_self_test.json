@@ -1,0 +1,21 @@
+{
+  "checks": {
+    "G_plus_G_equals_2G": true,
+    "two_G_plus_G_equals_3G": true
+  },
+  "points": {
+    "2G": {
+      "x": 458,
+      "y": 351
+    },
+    "3G": {
+      "x": 373,
+      "y": 163
+    },
+    "G": {
+      "x": 3,
+      "y": 212
+    }
+  },
+  "status": "ok"
+}
