@@ -24,7 +24,7 @@
     "glv_validation": false,
     "polynomial_resultant": false,
     "anf_export": false,
-    "toy_sat_demo": true
+    "toy_sat_demo": false
   },
   "polynomial": {
     "backend": "sympy",

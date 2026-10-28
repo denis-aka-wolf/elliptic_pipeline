@@ -1,0 +1,14 @@
+{
+  "curve": {
+    "a": 0,
+    "b": 7,
+    "p": 499
+  },
+  "equation_verified": true,
+  "generator": {
+    "x": 3,
+    "y": 212
+  },
+  "mode": "toy",
+  "status": "ok"
+}

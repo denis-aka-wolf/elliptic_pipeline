@@ -1,0 +1,10 @@
+2026-10-28 19:13:11,132 INFO START stage=curve_validation
+2026-10-28 19:13:11,149 INFO OK stage=curve_validation
+2026-10-28 19:13:11,149 INFO START stage=arithmetic_self_test
+2026-10-28 19:13:11,150 INFO OK stage=arithmetic_self_test
+2026-10-28 19:13:11,151 INFO SKIP stage=polynomial_resultant
+2026-10-28 19:13:11,151 INFO SKIP stage=anf_export
+2026-10-28 19:13:11,151 INFO SKIP stage=toy_sat_demo
+2026-10-28 19:13:11,198 INFO ARCHIVE F:\Python\elliptic_pipeline\experiments\20261028_191311_toy_curve_p499\archive.zip
+2026-10-28 19:13:11,198 INFO FINISHED status=ok
+2026-10-28 19:13:11,198 INFO RUN_DIRECTORY F:\Python\elliptic_pipeline\experiments\20261028_191311_toy_curve_p499

@@ -1,0 +1,41 @@
+{
+  "experiment": "toy_curve_p499",
+  "results": {
+    "arithmetic_self_test": {
+      "checks": {
+        "G_plus_G_equals_2G": true,
+        "two_G_plus_G_equals_3G": true
+      },
+      "points": {
+        "2G": {
+          "x": 458,
+          "y": 351
+        },
+        "3G": {
+          "x": 373,
+          "y": 163
+        },
+        "G": {
+          "x": 3,
+          "y": 212
+        }
+      },
+      "status": "ok"
+    },
+    "curve_validation": {
+      "curve": {
+        "a": 0,
+        "b": 7,
+        "p": 499
+      },
+      "equation_verified": true,
+      "generator": {
+        "x": 3,
+        "y": 212
+      },
+      "mode": "toy",
+      "status": "ok"
+    }
+  },
+  "status": "ok"
+}
