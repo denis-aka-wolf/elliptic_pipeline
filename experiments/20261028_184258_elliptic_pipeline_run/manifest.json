@@ -1,0 +1,29 @@
+{
+  "config_path": "F:\\Python\\elliptic_pipeline\\config.json",
+  "config_sha256": "d68e11d103c1afa18ce880552c6acc09763bc40b225aab53736b2a20f633b751",
+  "duration_seconds": 0.146745,
+  "finished_utc": "2026-10-28T15:42:58.601373+00:00",
+  "overall_status": "ok",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "python_version": "3.15.2 (tags/v3.15.2:5e58eaa, Oct 25 2026, 17:27:03) [MSC v.1951 64 bit (AMD64)]",
+  "stages": {
+    "anf_export": {
+      "status": "skipped"
+    },
+    "arithmetic_self_test": {
+      "duration_seconds": 0.001497,
+      "status": "ok"
+    },
+    "curve_validation": {
+      "duration_seconds": 0.019868,
+      "status": "ok"
+    },
+    "polynomial_resultant": {
+      "status": "skipped"
+    },
+    "toy_sat_demo": {
+      "status": "skipped"
+    }
+  },
+  "started_utc": "2026-10-28T15:42:58.454645+00:00"
+}

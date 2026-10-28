@@ -1,0 +1,6 @@
+{
+  "variables": ["x", "z"],
+  "eliminate": "z",
+  "f": "z**2 - x",
+  "g": "z - 1"
+}
