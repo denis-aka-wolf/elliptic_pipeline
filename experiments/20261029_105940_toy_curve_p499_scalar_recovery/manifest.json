@@ -1,0 +1,14 @@
+{
+  "config": "config.json",
+  "intermediate": [
+    "intermediate/cnf_manifest.json"
+  ],
+  "generated": [
+    "generated/scalar_recovery.cnf"
+  ],
+  "output": [
+    "output/solver/solver_result.json",
+    "output/experiment_result.json"
+  ],
+  "status": "UNKNOWN"
+}

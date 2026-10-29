@@ -1,0 +1,12 @@
+{
+  "status": "UNKNOWN",
+  "return_code": 3221225781,
+  "elapsed_seconds": 0.028142,
+  "command": [
+    "F:\\Python\\elliptic_pipeline\\cryptominisat5.exe",
+    "F:\\Python\\elliptic_pipeline\\experiments\\20261029_105940_toy_curve_p499_scalar_recovery\\generated\\scalar_recovery.cnf"
+  ],
+  "cnf_path": "F:\\Python\\elliptic_pipeline\\experiments\\20261029_105940_toy_curve_p499_scalar_recovery\\generated\\scalar_recovery.cnf",
+  "assignment": null,
+  "errors": []
+}

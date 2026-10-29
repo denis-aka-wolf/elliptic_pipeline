@@ -1,0 +1,33 @@
+{
+  "status": "UNKNOWN",
+  "curve": "toy_curve_p499",
+  "p": 499,
+  "G": {
+    "x": 3,
+    "y": 212
+  },
+  "Q": {
+    "x": 373,
+    "y": 163
+  },
+  "scalar_bits": 9,
+  "cnf": {
+    "path": "generated/scalar_recovery.cnf",
+    "num_variables": 9,
+    "num_clauses": 505
+  },
+  "solver_result": {
+    "status": "UNKNOWN",
+    "return_code": 3221225781,
+    "elapsed_seconds": 0.028142,
+    "command": [
+      "F:\\Python\\elliptic_pipeline\\cryptominisat5.exe",
+      "F:\\Python\\elliptic_pipeline\\experiments\\20261029_105940_toy_curve_p499_scalar_recovery\\generated\\scalar_recovery.cnf"
+    ],
+    "cnf_path": "F:\\Python\\elliptic_pipeline\\experiments\\20261029_105940_toy_curve_p499_scalar_recovery\\generated\\scalar_recovery.cnf",
+    "assignment": null,
+    "errors": []
+  },
+  "encoding_warning": "Bounded toy truth-table encoding, not suitable for large curves.",
+  "message": "CryptoMiniSat завершился со статусом UNKNOWN."
+}

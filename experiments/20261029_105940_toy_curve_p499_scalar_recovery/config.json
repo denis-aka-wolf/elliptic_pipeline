@@ -1,0 +1,28 @@
+{
+  "curve": {
+    "name": "toy_curve_p499",
+    "p": 499,
+    "a": 0,
+    "b": 7,
+    "G": {
+      "x": 3,
+      "y": 212
+    },
+    "Q": {
+      "x": 373,
+      "y": 163
+    }
+  },
+  "experiment": {
+    "scalar_bits": 9
+  },
+  "solver": {
+    "name": "cryptominisat5",
+    "executable": "cryptominisat5.exe",
+    "timeout_seconds": 300
+  },
+  "output": {
+    "directory": "experiments",
+    "archive": true
+  }
+}

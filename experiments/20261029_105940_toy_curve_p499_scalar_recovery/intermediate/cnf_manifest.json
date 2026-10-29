@@ -1,0 +1,28 @@
+{
+  "cnf_file": "generated/scalar_recovery.cnf",
+  "num_variables": 9,
+  "num_clauses": 505,
+  "scalar_bits": 9,
+  "scalar_bit_variables_lsb_first": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "encoding": "bounded_toy_truth_table_blocking_clauses",
+  "candidate_values_found_during_encoding": [
+    3,
+    76,
+    149,
+    222,
+    295,
+    368,
+    441
+  ],
+  "warning": "The toy CNF generator enumerates candidate k values to construct the formula. This demonstrates the pipeline but is not a scalable discrete-log algorithm."
+}
